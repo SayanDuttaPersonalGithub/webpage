@@ -81,7 +81,7 @@ p{
 }
 
 #p1 {
-    background: url("/Photos/Ankita\ dhara.jpg") ;
+    background: url("webpage/Photos/Ankita\ dhara.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -91,38 +91,38 @@ p{
     background: transparent;
 }
 #p2 {
-    background: url("/Photos/aakash\ hirani.png") ;
+    background: url("webpage/Photos/aakash\ hirani.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 #p3 {
-    background: url("/Photos/aakash\ hirani\ 2.png") ;
+    background: url("webpage/Photos/aakash\ hirani\ 2.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 #p4 {
-    background: url("/Photos/anumit\ kumar\ jana.png") ;
+    background: url("webpage/Photos/anumit\ kumar\ jana.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 #p5 {
-    background: url('/Photos/Rahul\ Pandey\ \(Graphic\ Design\)\ \(1\).jpg') ;
+    background: url('webpage/Photos/Rahul\ Pandey\ \(Graphic\ Design\)\ \(1\).jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 #p6 {
-    background: url("/Photos/swapnaneel\ ray.jpg") ;
+    background: url("webpage/Photos/swapnaneel\ ray.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
 #p7 {
-    background: url("/Photos/yash\ maheshwari.jpg") ;
+    background: url("webpage/Photos/yash\ maheshwari.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     
