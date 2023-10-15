@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul class="navigation_bar">
+            <li ><a class="nav_item" href="home.html">Home</a></li>
+            <li ><a class="nav_item" href="Acadamic.html">Academics</a></li>
+            <li ><a class="nav_item" href="Achivements.html">Creativity</a></li>
+            <li ><a class="nav_item" href="contacts.html">Contacts</a></li>
+            <li ><a class="nav_item" href="notice.html">Notices</a></li>
+        </ul>
+    </nav>
+    <div class="dummy"></div>
+    <div class="title">
+        <span class=" text title_first">IT MEANS</span><br>
+        <div class="imp"><span class="text title_second"></span></div>
+    </div>
+    <div class="head-picture">
+        <img src="—Pngtree—college students  day_7212542.png" alt="">
+    </div>
+</body>
+<script>
+    let element=document.querySelector('.title_second')
+        const change=()=>
+        {
+            setTimeout(() => {
+                element.innerHTML='Opportunity'
+            
+            }, 0);
+            setTimeout(() => {
+                element.innerHTML='Excellencee'
+            }, 4000);
+            setTimeout(() => {
+                element.innerHTML='Advancement'
+            }, 8000);
+        }
+        change()
+        setInterval(() => {
+        change() 
+        }, 12000);
+
+</script>
+// <script src="script.js">
+ 
+
+</script>
+
+</html>

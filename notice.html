@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notice.css">
+    <title>Document</title>
+</head>
+<body onload="hide();paraload()" >
+    <nav>
+        <ul class="navigation_bar">
+            <li ><a class="nav_item" href="home.html">Home</a></li>
+            <li ><a class="nav_item" href="Acadamic.html">Academics</a></li>
+            <li ><a class="nav_item" href="Achivements.html">Creativity</a></li>
+            <li ><a class="nav_item" href="contacts.html">Contacts</a></li>
+            <li ><a class="nav_item" href="notice.html">Notices</a></li>
+        </ul>
+    </nav>
+    <div class="dummy"></div>
+    
+    <div class="container" onclick="show()">
+        <button class="add">+</button>
+    </div>
+    <div class="box">
+    <div class="form" id="hide">
+        <button class="cross" onclick="hide()">&times;</button>
+        <form action="">
+            <div class="first"><p>Enter your name</p>
+                <input type="text" id="name" name="name">
+                <p class="second">Enter the notice you want to publish</p>
+                <div class="cbd">
+                    <textarea id="notice-text" class="content-box" rows="8" cols="12"></textarea>
+                </div>
+                
+                <button type="button" id="submit"  onclick="add();hide();">submit</button>
+            </div>
+            
+           
+        </form>
+    </div>
+    </div>
+    <div class="notices">
+        <p class="para" id="p1"></p>
+        <p class="para" id="p2"></p>
+        <p class="para" id="p3"></p>
+        <p class="para" id="p4"></p>
+        <p class="para" id="p5"></p>
+        <p class="para" id="p6"></p>
+        <p class="para" id="p7"></p>
+        <p class="para" id="p8"></p>
+        <p class="para" id="p9"></p>
+        <p class="para" id="p10"></p>
+    </div>
+
+    </body>
+    <script src="notice.js"></script>
+</html>

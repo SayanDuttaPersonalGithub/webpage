@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav>
+        <ul class="navigation_bar">
+            <li ><a class="nav_item" href="home.html">Home</a></li>
+            <li ><a class="nav_item" href="Acadamic.html">Academics</a></li>
+            <li ><a class="nav_item" href="Achivements.html">Creativity</a></li>
+            <li ><a class="nav_item" href="contacts.html">Contacts</a></li>
+            <li ><a class="nav_item" href="notice.html">Notices</a></li>
+        </ul>
+    </nav>
+    <div class="dummy"></div>
+   <div class="header">
+    <h1>Welcome to the IT family of Jadavpur University</h1>
+   </div>
+   <div class="downcontent">
+   <div class="another-content">
+    <div class="alumini">
+        
+        <div class="head-name">Alumni success stories</div>
+        <div class="storybox">
+            <div class="picnaname">
+                <div class="pic"><img src="/Teachers/annonymus.jpg" alt=""></div>
+                <div class="name"><p id="name" >Mainak Biswas</p></div>
+            </div>
+            <div class="story"><p id="story" >PG Student, School of
+                Automation
+                IISC, Bangalore
+                </p>
+                </div>
+        </div>
+    </div>
+   </div>
+   <div class="second-content">
+   <div class="circle">
+    <div class="cir2">
+        <!-- <div class="cir3"></div> -->
+    </div>
+    
+    <div class="images">
+       
+        <div class="center-text"><p>IT is all around us</p></div>
+        <div class="png" style="--i:0;"  onclick="
+        window.location.href='https://softengi.com/blog/ai-in-it-how-artificial-intelligence-will-transform-the-it-industry/';"   ><img src="/home pic/AI.jpg" alt=""></div>
+        <div class="png" style="--i:1;"  onclick="
+        window.location.href='https://learningportal.iiep.unesco.org/en/issue-briefs/improve-learning/information-and-communication-technology-ict-in-education';"   ><img src="/home pic/education.jpg" alt=""></div>
+        <div class="png" style="--i:2;"  onclick="
+        window.location.href='https://inc42.com/resources/ai-in-entertainment-media-how-innovative-technologies-are-changing-the-game/';"   ><img src="/home pic/entertaintment.jpeg" alt=""></div>
+        <div class="png" style="--i:3;"  onclick="
+        window.location.href='https://en.wikipedia.org/wiki/Information_technology_in_India';"   ><img src="/home pic/Induatry.jpg" alt=""></div>
+        <div class="png" style="--i:4;"  onclick="
+        window.location.href='https://www.asianhhm.com/articles/role-information-technology-medical-sciences';"  ><img src="/home pic/helth.jpeg" alt=""></div>
+    </div>
+   </div>
+</div>
+</div>
+</body>
+            <!-- elm1.innerHTML=`<img src="/Teachers/annonymus.jpg" alt="">`;
+            elm2.innerHTMl=`Mainak Biswas`;
+            elm3.innerHTML=`<p>PG Student, School of
+                Automation
+                IISC, Bangalore
+                </p>`; -->
+<script>
+    // let elm1=document.querySelector(`.pic`);
+    // let elm2=document.getElementById('name');
+    // let elm3=document.querySelector(`#story`);
+    // const change=()=>
+    //     {
+    //         setTimeout(() => {
+    //             elm1.innerHTML=`<img src="/Teachers/annonymus.jpg" alt="">`;
+    //             elm2.innerHTMl=`Mainak Biswas`;
+    //             elm3.innerHTML=`<p>PG Student, School of
+    //             Automation
+    //             IISC, Bangalore
+    //             </p>`;
+    //         console.log(elm2);
+    //         }, 0);
+    //         setTimeout(() => {
+    //             elm1.innerHTML='<img src="/Teachers/annonymus.jpg" alt="">';
+    //             elm2.innerHTMl='<p>Mr. Avishek Banerjee</p>';
+    //             elm3.innerHTML=`<p>PG Student, School of
+    //             Automation
+    //             IISC, Bangalore
+    //             </p>`;
+    //             console.log(elm2.innerHTML);
+    //         }, 3000);
+    //         setTimeout(() => {
+    //             elm1.innerHTML=`<img src="/Teachers/annonymus.jpg" alt="">`;
+    //             elm2.innerHTMl=`Mainak Biswas`;
+    //             elm3.innerHTML=`<p>PG Student, School of
+    //             Automation
+    //             IISC, Bangalore
+    //             </p>`;
+    //         }, 6000);
+    //     }
+    //     change()
+    //     setInterval(() => {
+    //     change() 
+    //     }, 9000);
+    let element=document.querySelector('#name');
+    let elm1=document.querySelector(`.pic`);
+    let elm2=document.querySelector(`.story`)
+    const change=()=>
+        {
+            setTimeout(() => {
+                element.innerHTML='<p>Mainak Biswas</p>'
+                elm2.innerHTML=`<p>PG Student, School of
+                Automation
+                IISC, Bangalore</p>`
+            }, 0);
+            setTimeout(() => {
+                element.innerHTML='<p>Abhisek Bannerjee</p>'
+                elm2.innerHTML=`<p>PhD Candidate & Research
+Scholar
+IIM CALCUTTA</p>`
+            }, 4000);
+        }
+        change()
+        setInterval(() => {
+        change() 
+        }, 8000);
+    
+</script>
+</html>

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav_item{
+    text-decoration: none;  
+    color: white; 
+   }
+.navigation_bar{
+    position: fixed;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(2,0,35);
+background: linear-gradient(90deg, rgba(2,0,35,1) 0%, rgba(8,8,110,1) 35%,  rgba(8,8,110,1)35%);
+    color: white;
+    padding: 10px;
+    list-style: none;
+    z-index: 12;
+    
+    
+}
+.dummy{
+    width: 100vw;
+    height: 39px;
+}
+body{
+    overflow: scroll;
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(197,0,255,1) 100%); */
+
+
+/* background: rgb(2,0,35);
+background: linear-gradient(90deg, rgba(2,0,35,1) 0%, rgba(0,0,75,1) 45%, rgba(173,0,225,1) 100%); */
+/* background: rgb(2,0,30);
+background: linear-gradient(90deg, rgba(2,0,30,1) 41%, rgba(0,0,75,1) 47%, rgba(145,0,189,1) 95%);   */
+/* background: rgb(2,0,30);
+background: linear-gradient(90deg, rgba(2,0,30,1) 60%, rgba(0,0,75,1) 66%, rgba(33, 0, 139, 0.406) 84%);
+     */
+     /* background: rgb(2,0,30);
+background: linear-gradient(90deg, rgba(2,0,30,1) 60%, rgba(0,0,75,1) 100%, rgba(126,5,162,1) 100%); */
+background: rgb(7,0,112);
+background: radial-gradient(circle, rgba(7,0,112,1) 45%, rgba(207,6,255,1) 100%, rgba(126,5,162,1) 100%);
+}
+.header{
+    background-color: transparent;
+    text-align: center;
+}
+.header h1{
+    color: white;
+}
+.header p{
+    color: burlywood;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 100vw;
+    height: 300vh;
+    overflow: scroll;
+}
+.info{
+    position: absolute;
+    
+    border: 5px solid transparent;
+    /* overflow: visible; */
+    word-wrap: break-word;
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    /* transition: .5s; */
+}
+.name,.phone-no{
+    /* transition: .5; */
+}
+.info:hover{
+    border-radius: 15px;
+    border-color: rgb(60, 255, 0);
+    box-shadow: 0 0 20px rgb(0, 255, 47),inset 0 0 20px rgb(11, 252, 3);
+    .name , .phone-no{
+        color: #fff;
+        text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 21px #fff,
+          0 0 42px #0fa,
+          0 0 82px #0fa,
+          0 0 92px #0fa,
+          0 0 102px #0fa,
+          0 0 151px #0fa;
+          animation: blink 12s infinite;
+      -webkit-animation: blink 12s infinite;
+      @-webkit-keyframes blink {
+        20%,
+        24%,
+        55% {
+          color: #111;
+          text-shadow: none;
+        }
+      
+        0%,
+        19%,
+        21%,
+        23%,
+        25%,
+        54%,
+        56%,
+        100% {
+      /*     color: #fccaff;
+          text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+            0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+          color: #fff6a9;
+        }
+      }
+      
+      @keyframes blink {
+        20%,
+        24%,
+        55% {
+          color: #111;
+          text-shadow: none;
+        }
+      
+        0%,
+        19%,
+        21%,
+        23%,
+        25%,
+        54%,
+        56%,
+        100% {
+      /*     color: #fccaff;
+          text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+            0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+          color: #fff6a9;
+        }
+    }
+    }
+}
+#bs{
+    left: 4%;
+}
+#bd{
+    left: 28%;
+}
+#km{
+    left: 52%;
+}
+#md{
+    left: 76%;
+}
+#pk{
+    top: 75%;
+    left: 4%;
+}
+#pb{
+    top: 75%;
+    left: 28%;
+}
+#ps{
+    top: 75%;
+    left: 52%;
+}
+#rb{
+    top: 75%;
+    left: 76%;
+}
+#sc{
+    top: 140%;
+    left: 4%;
+}
+#somd{
+    top: 140%;
+    left: 28%;
+}
+#ur{
+    top: 140%;
+    left: 52%;
+}
+#sd{
+    top: 140%;
+    left: 76%;
+}
+#tr{
+    top: 205%;
+    left: 4%;
+}
+#ukr{
+    top: 205%;
+    left: 28%;
+}
+.photo{
+    width: 290px;
+    height: 60%;
+    background-color: transparent;
+}
+.name{
+    width: 290px;
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Sacramento", cursive;
+    color: rgb(238, 255, 0);
+    background-color: transparent;
+}
+.pic{
+    width: inherit;
+    height: 100%;
+}
+#sp{
+    font-size: 19px;
+    
+}
+.phone-no{
+    font-size: 20px;
+    color: rgb(255, 247, 0);
+
+}
